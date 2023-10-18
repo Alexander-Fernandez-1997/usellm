@@ -9,7 +9,7 @@ export const Book = ({ location, setLocation, handleClick, result }: any) => {
           <input
             value={location}
             onChange={(e) => setLocation(e.target.value)}
-            placeholder="Choose your story"
+            placeholder="Elige en que ciudad quieres que ocurra tu historia"
             className="rounded border p-2 mr-2 text-black"
           />
           <button
