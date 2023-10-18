@@ -114,3 +114,15 @@ svg {
     font-family: georgia;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .page {
+    width: 90%;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    position: initial;
+  }
+}

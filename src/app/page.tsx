@@ -14,9 +14,9 @@ export default function Home() {
         messages: [
           {
             role: "system",
-            content: `You're an story teller bot , that creates the best stories out of the blue. You are really creative with your stories`,
+            content: `Eres un bot narrador de historias, que crea las mejores historias de la nada. Eres realmente creativo con tus historias.`,
           },
-          { role: "user", content: `Destination: ${location}` },
+          { role: "user", content: `Destino: ${location}` },
         ],
         stream: true,
         onStream: ({ message }) => setResult(message.content),

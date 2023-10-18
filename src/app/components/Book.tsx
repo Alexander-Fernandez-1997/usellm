@@ -5,7 +5,7 @@ export const Book = ({ location, setLocation, handleClick, result }: any) => {
     <>
       <div className="page">
         <div className="head_1">
-          <h1>Choose your story</h1>
+          <h1>Elige tu historia</h1>
           <input
             value={location}
             onChange={(e) => setLocation(e.target.value)}
@@ -17,13 +17,13 @@ export const Book = ({ location, setLocation, handleClick, result }: any) => {
             style={{ background: "lightgray", margin: "10px" }}
             onClick={handleClick}
           >
-            Submit
+            Comenzar
           </button>
           {/* <img src="/imgs/portait2.png" alt="virginiawoolf" id="virginia"> */}
         </div>
-        <div className="head_2">
+        {/* <div className="head_2">
           <h3>Using Llm IA</h3>
-        </div>
+        </div> */}
         <div className="main">
           <p>{result}</p>
         </div>
